@@ -1,10 +1,61 @@
 # DETECTING RICE LEAF DISEASES 
+## INTRODUCTION:
 
-
-## INRODUCTION:
 Rice is by far the most significant food crop for people in low- and lower-middle-income nations, out of the three primary crops (rice, wheat, and maize). Although both rich and poor people eat rice in low-income nations, the poorest people consume comparatively little wheat and are thus heavily influenced by rice prices and availability.
 
 Rice is a vital and often irreplaceable staple in many Asian countries, particularly among the impoverished. Rice accounts for about half of the food expenditures and a fifth of total family expenditures for Asia's extreme poor, who subsist on less than 1.25 per-day_on_average. This group alone spends 62 billion (in purchasing power parity) on rice each year. Rice is vital to the food security of many of the world's impoverished.
+
+## THE PROJECT HAS BEEN ORGANISED INTO MULTIPLE STAGES:
+
+1.INTRODUCTION
+
+2.ABOUT THE DATASET
+
+3.IMPORT NEEDED LIBRARIES
+
+4.PREPARING THE DATASET
+
+5.CREATING THE VALIDATION SETS
+
+6.CREATING THE TRAINNG SET FOR EACH CLASS
+
+7.CREATING THE DATAFRAME FOR "DATA","TRAIN" & "VALIDATION" , BY RESTTING THE INDEX ACCORDINGLY
+
+8.CHECKING THE VALUE_COUNTS
+
+9.PREPROCESSING THE DATASET
+
+10.VISUALISATION
+
+11.SETTING UP & TEST THE AUGUMENTATIONS
+
+* DEFINING THE TRANSFORM PARAMETER
+* GETTING AN IMAGE TO TEST TRANSFORMATIONS
+* TEST THE TRANSFORMATION
+12.BUILDING THE DATA GENERATORS
+  
+* TRAIN GENERATOR
+* BUILDING THE FUNCTION
+* VAL GENERATOR
+* TEST GENERATOR
+* 
+13.MODEL BUILDING ARCHITECTURE
+  
+14.TRAIN THE MODEL
+* EVALUATE THE MODEL ON THE VAL SET
+* LOADING THE TRAIN MODEL
+* 
+15.PLOTTING THE CURVES
+  
+16.MAKE A PREDICTION ON THE VAL SET
+
+17.CONFUSION MATRIX & CLASSIFICATION REPORT
+
+18.TESTING OUR MODEL WITH RANDOM PICTURE DOWNLOADED FROM GOOGLE
+
+19.CONCLUSION:
+
+
 
 ### Rice Leaf Disease:
 ![image](https://github.com/Tanwar-12/DETECTING-RICE-LEAF-DISEASES/assets/110081008/a3d4216e-f5ee-4399-a40c-248c25ecdc72)
@@ -64,7 +115,7 @@ Rice is a vital and often irreplaceable staple in many Asian countries, particul
 ### TRAIN GENERATOR
 #### BUILDING THE FUNCTION
 * Train images have been augmented.
-  ![image](https://github.com/Tanwar-12/DETECTING-RICE-LEAF-DISEASES/assets/110081008/053de21d-b998-4ff7-96c0-442d8bead8cf
+  ![image](https://github.com/Tanwar-12/DETECTING-RICE-LEAF-DISEASES/assets/110081008/053de21d-b998-4ff7-96c0-442d8bead8cf)
 
   ### VAL GENERATOR
   ![image](https://github.com/Tanwar-12/DETECTING-RICE-LEAF-DISEASES/assets/110081008/3e911572-090f-4bc9-8446-f55f4db3e8c6)
